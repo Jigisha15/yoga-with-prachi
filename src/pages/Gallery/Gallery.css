@@ -1,16 +1,9 @@
-.gallery{
-    max-width: 100%;
-    /* padding: 1rem 3rem; */
+.gallery_card{
+    padding: 3rem 0;
     display: grid;
-    grid-template-columns: 21rem 21rem 21rem;
+    grid-template-columns: 22rem 22rem 22rem 22rem;
+    column-gap: 0.5rem;
+    row-gap: 0.4rem;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin: 0 0 2rem;
-    /* border: 1px solid black; */
-}
-
-.yoga-img{
-    width: 20rem;
-    height: 26rem;
 }

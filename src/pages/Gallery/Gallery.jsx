@@ -1,16 +1,13 @@
 import gallery from '../../data/gallery'
 import './Gallery.css'
+import Gallerycard from '../../components/Gallerycard/Gallerycard'
+
 
 const Gallery = () => {
   return (
-    <div className="gallery">
-      {gallery.map((data, index) => (  
-        <img
-        key={index}
-        className='yoga-img'
-        src={data}
-        alt=""
-        />
+    <div className="gallery_card">
+      {gallery.map((data, index) => (
+        <Gallerycard key={index} source={data} />
       ))}
     </div>
   )

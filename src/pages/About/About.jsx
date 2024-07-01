@@ -11,12 +11,15 @@ import valuecard from '../../data/valuecard'
 import Talkabout from '../../components/TalkAbout/Talkabout'
 import talkabout from '../../data/talkabout'
 
+import aboutme from '../../assets/aboutme.jpeg'
+
 const About = () => {
   return (
     <div className="about">
       <div className="about-text">
         <img
-          src="https://i.pinimg.com/564x/bb/ce/c4/bbcec44b3e0124241eb5c21e9f0efbd1.jpg"
+          // src="https://i.pinimg.com/564x/bb/ce/c4/bbcec44b3e0124241eb5c21e9f0efbd1.jpg"
+          src={aboutme}
           alt=""
           className="about-image"
         />
@@ -32,13 +35,15 @@ const About = () => {
           <h2>Check Out my Social Media Handles</h2>
           <div className="social-media">
             <Link
-              to="https://www.instagram.com/"
+              to="https://www.instagram.com/yogawithprachii/"
+              target="blank"
               className="social-links"
             >
               <SlSocialInstagram />
             </Link>
             <Link
-              to="https://www.facebook.com/"
+              to="https://www.facebook.com/search/top?q=prachi%20kadam"
+              target='blank'
               className="social-links"
             >
               <SlSocialFacebook />

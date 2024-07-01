@@ -1,7 +1,9 @@
 import './Home.css'
 import Homecard from '../../components/Homecard/Homecard'
 import homecard from '../../data/homecard.js'
+
 import Textcar from '../../components/Textcar/Textcar.jsx'
+
 import Smallcard from '../../components/Smallcard/Smallcard.jsx'
 import smallcard from '../../data/smallcard.js'
 
@@ -78,6 +80,7 @@ const Home = () => {
         </p>
         <button>Register Now</button>
       </div>
+
 
       <div className="smallcards-display">
         {smallcard.map((data, index) => (

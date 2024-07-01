@@ -1,0 +1,9 @@
+.gallerycard{
+    width: 22rem;
+    height: 13rem;
+}
+
+.gallerycard img{
+    width: inherit;
+    height: inherit;
+}
