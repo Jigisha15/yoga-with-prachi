@@ -1,0 +1,19 @@
+.talkabout{
+    width: 20rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.talkabout img{
+    width: 20rem;
+    height: 13.5rem;
+}
+
+.talkabout h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem 0 0;
+}

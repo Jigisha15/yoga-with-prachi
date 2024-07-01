@@ -1,0 +1,16 @@
+.gallery{
+    max-width: 100%;
+    /* padding: 1rem 3rem; */
+    display: grid;
+    grid-template-columns: 21rem 21rem 21rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 2rem;
+    /* border: 1px solid black; */
+}
+
+.yoga-img{
+    width: 20rem;
+    height: 26rem;
+}

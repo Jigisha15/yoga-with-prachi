@@ -1,0 +1,9 @@
+.smallcard{
+    width: 12rem;
+    height: 12rem;
+}
+
+.smallcard img{
+    width: inherit;
+    height: inherit;
+}

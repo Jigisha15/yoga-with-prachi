@@ -1,0 +1,52 @@
+.homecard{
+    width: 20rem;
+    height: 28rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homecard img{
+    width: 19.5rem;
+    height: 18.5rem;
+}
+
+.home-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0.7rem 0 0;
+}
+
+.home-card-text h1{
+    font-size: 1.1rem;
+    width: 19rem;
+    color: #CC9F53;
+}
+
+.home-card-text p{
+    width: 19rem;
+    font-size: .90rem;
+    text-align: justify;
+    font-weight: 500;
+    color: grey;
+}
+
+
+.home-card-text button{
+    width: 19rem;
+    border: none;
+    text-align: start;
+    background-color: inherit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(160, 159, 159);
+    cursor: pointer;
+}
+
+.home-card-text button:hover{
+    color: grey;
+}
