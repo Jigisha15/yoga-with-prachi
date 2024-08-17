@@ -14,8 +14,7 @@ const Footer = () => {
 
       <div className="footer-devs">
         <p>
-          Developed by <a href="https://github.com/Jigisha15" target='_blank'>Jigisha</a> &
-          <a href="">Saachi</a>
+          Developed by <a href="https://github.com/Jigisha15" target='_blank'>Jigisha Ghanekar</a>
         </p>
       </div>
     </div>

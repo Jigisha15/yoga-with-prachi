@@ -7,3 +7,42 @@
     justify-content: center;
     align-items: center;
 }
+
+.gallery_button{
+    border: none;
+    cursor: pointer;
+    float: right;
+    /* font-size: 2rem; */
+    /* padding: 1rem; */
+    background-color: inherit;
+}
+
+.modal{
+    width: 60rem;
+    height: 30rem;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: 18rem;
+    top: 5rem;
+    color: black;
+}
+
+.modal_false{
+    color: black;
+}
+
+.modal img{
+    width: inherit;
+    height: inherit;
+}
+
+
+
+@media (min-width:475px){}
+@media (min-width:648px){}
+@media (min-width:768px){}
+@media (min-width:1024px){}
+@media (min-width:1280px){}
+@media (min-width:1536px){}

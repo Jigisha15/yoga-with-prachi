@@ -43,7 +43,7 @@
     word-spacing: 5px;
 }
 
-.carousel button{
+.click-buttons{
     border: 1.5px solid #4F4038;
     padding: 7px 9px;
     border-radius: 1.1rem;
@@ -52,4 +52,17 @@
     font-size: 1rem;
     cursor: pointer;
     margin: 0 5rem;
+}
+
+.textcar-button{
+    border: none;
+    background: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:475px){
+    .carousel{
+        display: none;
+    }
 }
