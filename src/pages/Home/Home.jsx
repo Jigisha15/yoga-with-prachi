@@ -4,10 +4,6 @@ import homecard from '../../data/homecard.js'
 
 import Textcar from '../../components/Textcar/Textcar.jsx'
 
-import gyanmudra from '../../assets/gyanmudra.JPG'
-import padmasana from '../../assets/padmasana.JPG'
-import yogapose4 from '../../assets/yogapose4.JPG'
-
 import Smallcard from '../../components/Smallcard/Smallcard.jsx'
 import smallcard from '../../data/smallcard.js'
 
@@ -19,15 +15,13 @@ const Home = () => {
         <div className="back">
           <img
             className="back-left"
-            // src="https://images.healthshots.com/healthshots/en/uploads/2022/05/11184715/Yoga-for-weight-loss-1600x900.jpg"
-            src={padmasana}
+            src="https://images.healthshots.com/healthshots/en/uploads/2022/05/11184715/Yoga-for-weight-loss-1600x900.jpg"
             alt=""
           />
           <div className="back-right">
             <img
               className="back-right-img"
-              // src="https://i.pinimg.com/564x/92/b4/b9/92b4b91bb2413e561bb74cdbf1dcdfc5.jpg"
-              src={gyanmudra}
+              src="https://i.pinimg.com/564x/92/b4/b9/92b4b91bb2413e561bb74cdbf1dcdfc5.jpg"
               alt=""
             />
           </div>
@@ -64,11 +58,9 @@ const Home = () => {
       <div className="next-card">
         <img
           className="next-card-left"
-          // src="https://static.toiimg.com/photo/81227882.cms"
-          src={yogapose4}
+          src="https://static.toiimg.com/photo/81227882.cms"
           alt=""
         />
-
         <div className="next-card-right">
           <h1>Training</h1>
           <p>
@@ -89,6 +81,7 @@ const Home = () => {
         <button>Register Now</button>
       </div>
 
+
       <div className="smallcards-display">
         {smallcard.map((data, index) => (
           <Smallcard
@@ -96,13 +89,6 @@ const Home = () => {
             source={data}
           />
         ))}
-      </div>
-
-      <div className="new-smallcard">
-        <img
-          src="https://i.pinimg.com/564x/9d/87/6c/9d876c8a4c73520517d0e1da619bebba.jpg"
-          alt=""
-        />
       </div>
     </div>
   )

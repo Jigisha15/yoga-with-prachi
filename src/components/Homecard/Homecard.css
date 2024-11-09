@@ -50,9 +50,3 @@
 .home-card-text button:hover{
     color: grey;
 }
-
-@media screen and (max-width:475px){
-    .homecard{
-        width: 21rem;
-    }
-}

@@ -74,7 +74,7 @@ const About = () => {
       </div>
 
       <div className="talkabout-cards">
-        <h1>I'm also engaged in...</h1>
+        <h1>I Talk About...</h1>
         <div className="talk-about-cards">
           {talkabout.map((data, index) => (
             <Talkabout

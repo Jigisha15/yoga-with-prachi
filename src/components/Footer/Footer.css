@@ -50,28 +50,3 @@
     color: white;
     font-style: italic;
 }
-
-
-
-@media  screen and (max-width:475px) {
-    .footer{
-        overflow-x: hidden;
-        max-width: 20rem;
-        height: 5rem;
-        padding: 1rem;
-    }
-    .footer-p{
-        font-size: 1rem;
-    }
-    .footer-buttons{
-        gap: 1rem;
-    }
-    .footer-links{
-        width: 6rem;
-        height: 1.8rem;
-        font-size: 0.7rem;
-    }
-    .footer-devs{
-        font-size: 1rem;
-    }
-}

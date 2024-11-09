@@ -1,16 +1,15 @@
 import './Navbar.css'
-import {NavLink} from 'react-router-dom'
-import logo from '../../assets/ansh_academy_logo.jpeg'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="left">
-        <img src={logo} alt="" />
+      <div className="right">
+        {/* <Link to='/'>ANSH ACADEMY</Link> */}
         ANSH ACADEMY
       </div>
 
-      <ul className="right">
+      <ul className="left">
         <li>
           <a
             href="/"
@@ -33,14 +32,6 @@ const Navbar = () => {
             className="a-link"
           >
             Contact
-          </a>
-        </li>
-        <li>
-          <a
-            href="feedback"
-            className="a-link"
-          >
-            Feedback
           </a>
         </li>
       </ul>
