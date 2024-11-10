@@ -1,9 +1,23 @@
-.smallcard{
-    width: 12rem;
-    height: 12rem;
+.smallcard {
+  width: 12rem;
+  height: 12rem;
 }
 
-.smallcard img{
-    width: inherit;
-    height: inherit;
+.smallcard img {
+  width: inherit;
+  height: inherit;
+}
+
+@media screen and (max-width: 600px) {
+  .smallcard {
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+  .smallcard {
+    width: 10rem;
+    height: 10rem;
+  }
 }

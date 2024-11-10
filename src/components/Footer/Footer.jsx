@@ -8,14 +8,29 @@ const Footer = () => {
       </p>
 
       <div className="footer-buttons">
-        <a href='about' className='footer-links'>About Us</a>
-        <a href='contact' className='footer-links'>Contact Us</a>
+        <a
+          href="about"
+          className="footer-links"
+        >
+          About Me
+        </a>
+        <a
+          href="contact"
+          className="footer-links"
+        >
+          Contact Us
+        </a>
       </div>
 
       <div className="footer-devs">
         <p>
-          Developed by <a href="https://github.com/Jigisha15" target='_blank'>Jigisha</a> &
-          <a href="">Saachi</a>
+          Developed by{' '}
+          <a
+            href="https://jigisha-ghanekar.vercel.app/"
+            target="_blank"
+          >
+            Jigisha Ghanekar
+          </a>
         </p>
       </div>
     </div>

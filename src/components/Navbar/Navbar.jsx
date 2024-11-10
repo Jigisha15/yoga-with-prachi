@@ -1,15 +1,15 @@
 import './Navbar.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="right">
-        {/* <Link to='/'>ANSH ACADEMY</Link> */}
+      <div className="left">
         ANSH ACADEMY
+        {/* <Link to="/">ANSH ACADEMY</Link> */}
       </div>
 
-      <ul className="left">
+      <ul className="right">
         <li>
           <a
             href="/"
@@ -28,10 +28,18 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="contact"
+            href="about"
             className="a-link"
           >
-            Contact
+            About Me
+          </a>
+        </li>
+        <li>
+          <a
+            href="enquiry"
+            className="a-link"
+          >
+            Enquiry
           </a>
         </li>
       </ul>

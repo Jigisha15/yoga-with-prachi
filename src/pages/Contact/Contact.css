@@ -1,8 +1,8 @@
-.contact{
+/* .contact{
     max-width: 70rem;
     height: 30rem;
     display: flex;
-    /* border: 1px solid black; */
+    /* border: 1px solid black; *
     margin: 2rem auto;
     position: relative;
     box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.2);
@@ -11,7 +11,7 @@
 .contact-left{
     width: 60rem;
     height: 30rem;
-    /* border: 1px solid black; */
+    /* border: 1px solid black; *
 }
 
 .contact-left h1{
@@ -70,7 +70,7 @@
 .inputs:not(:placeholder-shown) + label,
 .inputs:valid + label{
     top: -10%;
-} */
+} *
 
 .form button{
     border: none;
@@ -82,20 +82,9 @@
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .contact-right{
     width: 10rem;
-    /* background-color: #878177; */
+    /* background-color: #878177; *
     background-color: #ABBAB1;
     display: flex;
     justify-content: center;
@@ -137,4 +126,48 @@
     align-items: center;
     gap: 1.5rem;
     font-size: 1.2rem;
+} */
+
+.contact{
+    width: 70rem;
+    /* height: 30rem; */
+    height: fit-content;
+    padding: 1rem 0 3rem;
+    /* color: #ABBAB1; */
+    /* color: #CC9F53; */
+    color: #878177;
+    /* box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.2); */
+    margin: 2rem auto;
+}
+
+.contact-title{
+    text-align: center;
+    padding: 0.5rem 0 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 0 0;
+}
+
+.contact-buttons{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    /* background-color: #B37173; */
+    background-color: rgba(179, 113, 115, 0.8);
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.contact-buttons:hover{
+    background-color: rgba(179, 113, 115, 1);
 }

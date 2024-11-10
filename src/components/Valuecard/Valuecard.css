@@ -1,27 +1,34 @@
-.valuecard{
-    background-color: #F5F5F5;
-    width: 17rem;
-    height: 17rem;
-    padding: 2rem 1rem 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.valuecard {
+  background-color: #f5f5f5;
+  width: 17rem;
+  height: 17rem;
+  padding: 2rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.valuecard h1{
-    font-size: 2rem;
-    font-weight: 800;
-    margin: 0.5rem 0 1rem;
+.valuecard h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0.5rem 0 1rem;
 }
 
-.valuecard h2{
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin:  0 0 0.5rem;
+.valuecard h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
 }
 
-.valuecard p{
-    font-weight: 400;
-    text-align: center;
+.valuecard p {
+  font-weight: 400;
+  text-align: center;
+  width: 15rem;
+}
+
+@media screen and (max-width: 600px) {
+  .valuecard {
     width: 15rem;
+    height: 15rem;
+  }
 }

@@ -1,0 +1,83 @@
+.enquiry{
+    width: 46rem;
+    height: fit-content;
+    padding: 1rem 2rem 2rem;
+    margin: 2rem auto;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enquiry-title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: #878177;
+    margin: 0 0 2rem;
+}
+
+.enquiry-form{
+    width: 40rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.form-display label{
+    font-size: 1.2rem;
+    margin: 0 2rem 0 0;
+    font-weight: 500;
+}
+
+.normal input{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #878177;
+}
+
+.normal textarea{
+    width: 25rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #878177;
+}
+
+.form-display span{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 15rem;
+    flex-direction: column;
+}
+
+.form-display-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.enquiry-form button{
+    width: 10rem;
+    /* height: 2rem; */
+    font-size: 1.1rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.declaration h1{
+    font-size: 1.2rem;
+}
+
+.declaration label{
+    text-align: justify;
+}
